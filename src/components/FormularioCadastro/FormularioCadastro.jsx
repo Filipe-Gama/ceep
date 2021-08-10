@@ -11,6 +11,7 @@ class FormularioCadastro extends Component {
           className="form-cadastro_input"
         ></input>
         <textarea
+          rows={15}
           placeholder="Escreva sua nota..."
           className="form-cadastro_input"
         ></textarea>
