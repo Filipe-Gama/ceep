@@ -4,7 +4,7 @@ import "./estilo.css";
 class ListaDeCategorias extends Component {
   state = {};
   _handleEventoInput(e) {
-    if (e.key == "Enter") {
+    if (e.key === "Enter") {
       let valorCategoria = e.target.value;
       this.props.adicionarCategoria(valorCategoria);
     }
